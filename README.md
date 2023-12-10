@@ -16,12 +16,12 @@ git clone https://github.com/abhishekab5297/django-notes-app.git
 
 2. Build the app
 ```
-docker build -t aws_733039644904 .
+docker build -t my-note-app .
 ```
 
 3. Run the app
 ```
-docker run -d -p 8000:8000 aws_733039644904:latest
+docker run -d -p 8000:8000 my-note-app:latest
 ```
 
 ## Nginx
